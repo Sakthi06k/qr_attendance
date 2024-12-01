@@ -51,7 +51,7 @@ function handleSubmit(event) {
     })
     .catch(error => {
         console.error('Error submitting form:', error);
-        document.getElementById('message').innerText = JSON.stringify(error); // Display error messages
+        document.getElementById('message').innerHTML = JSON.stringify(error.message); // Display error messages
     });
 }
 
