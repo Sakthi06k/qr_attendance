@@ -51,7 +51,7 @@ function handleSubmit(event) {
     })
     .catch(error => {
         console.error('Error submitting form:', error);
-        document.getElementById('message').innerText = 'Error: try in college campus'; // Display error messages
+        document.getElementById('message').innerText = JSON.stringify(error); // Display error messages
     });
 }
 

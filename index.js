@@ -47,7 +47,7 @@ console.log(location)
             res.json({ message: 'Data successfully submitted!' });
         } catch (error) {
             console.error('Error saving to MongoDB:', error);
-            res.status(500).json({ message: 'Error saving data.' });
+            res.status(500).json({ message: error });
         }
     }
 });
