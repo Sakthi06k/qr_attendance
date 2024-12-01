@@ -32,7 +32,7 @@ function handleSubmit(event) {
     const className = document.getElementById('className').value;
 
     // Proceed with form submission to server
-    fetch('http://localhost:5000/api/submit', {
+    fetch('https://qr-attendance-bz2n.onrender.com/api/submit', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
