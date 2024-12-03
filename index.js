@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // MongoDB connection
-const mongoURI = "mongodb+srv://sindhusri1603:riyasindhu@123@cluster1.8wok4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1"
+const mongoURI = "mongodb+srv://Sindhu:Sindhu1234@cluster0.0pgzm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 mongoose.connect(mongoURI, {
     useNewUrlParser: true,
     useUnifiedTopology: true
